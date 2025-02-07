@@ -42,3 +42,13 @@ func AssertEqual(t testing.TB, expected, actual interface{}) {
 		t.Errorf("Expected %v, got %v", expected, actual)
 	}
 }
+
+func SwapElements(list []int, pos1, pos2 int) []int {
+
+	a := list[pos1]
+
+	list[pos1] = list[pos2]
+	list[pos2] = a
+
+	return list
+}
