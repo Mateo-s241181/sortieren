@@ -11,7 +11,7 @@ func BubbleUp(list []int) bool {
 
 	for i := range list {
 
-		//Wenn i am letzten Element algelangt ist soll er nicht mit dem nächsten vergleichen (not accessible)
+		//Wenn i am letzten Element algelangt ist soll er nicht mit dem nächsten vergleichen (OUT OF RANGE)
 		if i == len(list)-1 {
 			break
 		}

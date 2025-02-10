@@ -3,7 +3,7 @@ package insertionsort
 import "sortieren/testhelpers"
 
 // MoveLeft bewegt das Element an der gegebenen Position nach links,
-// bis es an der richtigen Position ist.
+// bis es rechts von der nächstkleineren Zahl ist.
 func MoveLeft(list []int, pos int) {
 
 	swapped := false

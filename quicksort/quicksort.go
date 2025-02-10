@@ -6,5 +6,11 @@ func QuickSort(list []int) {
 		return
 	}
 
-	// TODO
+	//Pivot Element wählen
+	//Liste durchlaufen und Elemente mit Pivotelement vergleichen
+	//Kleinere und Größere Elemente in seperaten Listen trennen
+
+	//Links und Rechts sortieren
+
+	//Listen wieder zusammenkopieren
 }
