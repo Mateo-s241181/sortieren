@@ -4,6 +4,13 @@ package selectionsort
 func SmallestPos(list []int) int {
 	smallest := 0
 
-	// TODO
+	for i := range list {
+
+		if list[i] < list[smallest] {
+
+			smallest = i
+		}
+
+	}
 	return smallest
 }
